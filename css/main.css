@@ -1,0 +1,16 @@
+:root {
+    /* text color */
+    --primary-color: #FFFFFF;
+    --primart-dark-color: #000000;
+    --main-section-color: #282938;
+    /* background-color */
+    --header-bg-color: #1C1E53;
+    --main-section-button-bg: #FCD980;
+    --main-section-point-active-bg: #2405F2;
+    --main-section-point-no-active-bg: #2405F266;
+    --main-kata-section-bg:#EEF4FA;
+    --main-card-bg:#F4F6FC;
+    /* box-shodow */
+    --primary-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    --hover-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
