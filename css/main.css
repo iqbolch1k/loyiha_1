@@ -240,3 +240,123 @@ header {
 
 /* main section start... */
 
+.main-section_3 {
+    margin-top: 9.25rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    overflow: hidden;
+}
+
+.main-section_3 img{
+    margin: 0 auto;
+}
+.main-section_3_text {
+    display: flex;
+    gap: 16px;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.main-section_3_text p:nth-of-type(1) {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--main-section-color);
+}
+
+.main-section_3_text h2 {
+    cursor: pointer;
+    font-size: 38px;
+    font-weight: 600;
+    color: var(--main-section-color);
+}
+
+.main-section_3_text p:nth-of-type(2) {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--main-section-color);
+}
+.main-section_4 .rekomend{
+    margin-top: 9.4rem;
+    margin-bottom: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-section_4 .untuk{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.untuk form select {
+    cursor: pointer;
+    width: 112px;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 0.2rem;
+
+}
+.main-section_4 .untuk button{
+    cursor: pointer;
+    width: 185px;
+    height: 54px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--main-section-button-bg);
+    color: var(--primart-dark-color);
+    font-size: 1rem;
+}
+.main-section_4 .untuk button:hover{
+    border: 2px solid var(--main-section-button-bg);
+    
+    background-color: white;
+}
+.main-section_4 .cards {
+    margin-top: 62px;
+    display: grid;
+    gap: 64px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+
+}
+.card{
+    width: 100%;
+}
+.main-section_4 .dasar{
+    padding: 16px;
+    display: flex;
+    gap: 4px ;
+    flex-direction: column;
+}
+.main-section_4 .dasar h3{
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.main-section_4 .dasar p{
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1rem;
+    color: var(--main-section-color);
+}
+.main-section_4 .card ul {
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+@media (max-width:1000px) {
+    .card{
+        margin: 0 auto;
+    }
+    .dasar{
+        align-items: center;
+    }
+}
